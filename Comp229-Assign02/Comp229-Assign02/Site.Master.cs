@@ -69,7 +69,7 @@ namespace Comp229_Assign02
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            PageTitle.Text = Page.Title;
         }
 
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
