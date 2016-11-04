@@ -13,7 +13,8 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link rel="stylesheet" type="text/css" href="~/CssPage/PersonalStyle.css">
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Images/Candy_Icon.png" rel="shortcut icon" type="image/x-icon" />
+    <!-- favicon recieved from https://commons.wikimedia.org/wiki/File:Candy_icon.png CC3.0 created by Iconshock-->
 
 </head>
 <body class="backgroundChange">
@@ -52,7 +53,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav color">
                         <li><a runat="server" href="~/"><span style="color:white">Home</span></a></li>
-                        <li><a runat="server" href="~/Pages/SurveyPage1"><span style="color:white">Servey</span></a></li>
+                        <li><a runat="server" href="~/Pages/SurveyPage1"><span style="color:white">Survey</span></a></li>
                     </ul>
                  <%--   <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>

@@ -13,5 +13,23 @@ namespace Comp229_Assign02.Pages
         {
 
         }
+        protected void Submit_Click(object sender, EventArgs e)
+        {
+            string firstName = firstNameTextBox.Text.ToString();
+            Session["firstName"] = firstName;
+            string lastName = lastNameTextBox.Text.ToString();
+            Session["lastName"] = lastName;
+            string address = addressTextBox.Text.ToString();
+            Session["address"] = address;
+            string trickOrTreated = trickOrTreatedRadio.SelectedValue;
+            Session["trickOrTreated"] = trickOrTreated;
+            string boughtBlocs = boughtCandy.SelectedValue;
+            Session["boughtBlocs"] = boughtBlocs;
+            string usualActivity = usualMethod.SelectedValue;
+            Session["usualActivity"] = usualActivity;
+            Response.Redirect(Page.ResolveClientUrl("ThankPage.aspx"));
+        }
+
+
     }
 }
