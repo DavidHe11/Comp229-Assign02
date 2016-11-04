@@ -210,7 +210,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Pages\ServeyPage1.aspx" />
+    <Content Include="Pages\SurveyPage1.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -381,12 +381,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Pages\ServeyPage1.aspx.cs">
-      <DependentUpon>ServeyPage1.aspx</DependentUpon>
+    <Compile Include="Pages\SurveyPage1.aspx.cs">
+      <DependentUpon>SurveyPage1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\ServeyPage1.aspx.designer.cs">
-      <DependentUpon>ServeyPage1.aspx</DependentUpon>
+    <Compile Include="Pages\SurveyPage1.aspx.designer.cs">
+      <DependentUpon>SurveyPage1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

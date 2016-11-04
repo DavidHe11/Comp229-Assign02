@@ -2,39 +2,41 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+   
+    <link rel="stylesheet" type="text/css" href="~/CssPage/PersonalStyle.css">
+    <div class="jumbotron" style="background-color:ghostwhite">
+        <h1>Candy Blocs</h1>
+        <p class="lead">Candy Blocs are Canada's favourite candy brand selling at over 500,000 locations! </p>
     </div>
 
     <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
+        <div class="col-md-4 border">
+            <h2>Halloween Survey</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+               We are conducting a Halloween survey to see how much children love to trick or treat for our amazing products!
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default color" href="Pages/SurveyPage1">Take the Survey! &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
+        <div class="col-md-4 border" style="background-color:black; color:orange;">
+            <h2>Privacy Policy</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                Our privacy Policy explains how personal data and information will be handled. Click below to find out more!
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default InverseColor" href="https://www.surveymonkey.com/mp/policy/privacy-policy/">Privacy Policy &raquo;</a>
+                <!--The following button link takes one to servey monkey's privacy policy, used in respects that the privacy policy can be an external link. I an in no way affiliated with serveymonkey or their pivacy policy.-->
+            </p>
+        </div>
+        <div class="col-md-4 border">
+            <h2>Terms of Use</h2>
+            <p>
+                Our Terms of Use details how our survey will be overseen and survey services will be done. Click below to find out more!
+            </p>
+            <p>
+                <a class="btn btn-default color" href="https://www.surveymonkey.com/mp/policy/terms-of-use/">Terms of Use &raquo;</a>
+                <!--The following button link takes one to servey monkey's terms of use, used in respects that the terms of use can be an external link. I an in no way affiliated with serveymonkey or their terms of use.-->
             </p>
         </div>
     </div>

@@ -10,6 +10,6 @@
 namespace Comp229_Assign02.Pages {
     
     
-    public partial class ServeyPage1 {
+    public partial class SurveyPage1 {
     }
 }

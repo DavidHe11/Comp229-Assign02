@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Comp229_Assign02.Pages
 {
-    public partial class ServeyPage1 : System.Web.UI.Page
+    public partial class SurveyPage1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
